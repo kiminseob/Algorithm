@@ -1,0 +1,21 @@
+# Data Base file
+*.db
+
+# OPENDB file
+*.opendb
+
+# Microsoft Visual Studio Solution
+*.sln
+.vs/
+
+# Debug folder
+Debug/
+
+# Incremental Linker File
+*.ilk
+
+# 응용 프로그램
+*.exe
+
+# Program debug Database
+*.pdb
