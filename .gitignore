@@ -14,7 +14,7 @@ Debug/
 # Incremental Linker File
 *.ilk
 
-# 응용 프로그램
+# Application program
 *.exe
 
 # Program debug Database
