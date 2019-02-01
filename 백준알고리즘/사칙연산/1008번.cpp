@@ -1,10 +1,10 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<iomanip>
 using std::cout;
 using std::cin;
 using std::setprecision;
 
-// µÎ ¼öÀÇ ³ª´°¼À
+// ë‘ ìˆ˜ì˜ ë‚˜ëˆ—ì…ˆ 
 int main() {
 	double a, b;
 	cin >> a >> b;
