@@ -4,7 +4,7 @@ using std::cout;
 using std::cin;
 using std::setprecision;
 
-// ë‘ ìˆ˜ì˜ ë‚˜ëˆ—ì…ˆ
+// µÎ ¼öÀÇ ³ª´°¼À
 int main() {
 	double a, b;
 	cin >> a >> b;
