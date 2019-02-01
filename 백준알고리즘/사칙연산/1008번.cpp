@@ -10,5 +10,6 @@ int main() {
 	cin >> a >> b;
 	cout << setprecision(10);
 	cout << a/b;
+
 	return 0;
 }
