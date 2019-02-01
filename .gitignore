@@ -19,3 +19,10 @@ Debug/
 
 # Program debug Database
 *.pdb
+
+# VC++ Project
+*.filters
+*.vcxproj
+
+# per-User Project Options File
+*.user
