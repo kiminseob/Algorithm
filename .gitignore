@@ -26,3 +26,6 @@ Debug/
 
 # per-User Project Options File
 *.user
+
+# Text file
+*.txt
