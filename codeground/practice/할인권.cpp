@@ -35,6 +35,19 @@ int main(int argc, char** argv)
 {
 	int T, test_case;
 	
+	
+	cin >> N >> M >> S;
+	edge.resize(N + 1);
+	for (int i = 0; i < M; i++) {
+		cin >> u >> v >> d;
+		edge[u].push_back(make_pair(v, d));
+	}
+	vector<int> dist = Dijkstra(S);
+	for (int i = 1; i <= N; i++) {
+		cout << dist[i] << endl;
+	}
+
+
 	freopen("sample_input.txt", "r", stdin);
 
 	cin >> T;
@@ -51,20 +64,4 @@ int main(int argc, char** argv)
 	}
 
 	return 0;//Your program should return 0 on normal termination.
-}
-
-
-
-int main() {
-	cin >> N >> M >> S;
-	edge.resize(N + 1);
-	for (int i = 0; i < M; i++) {
-		cin >> u >> v >> d;
-		edge[u].push_back(make_pair(v, d));
-	}
-	vector<int> dist = Dijkstra(S);
-	for (int i = 1; i <= N; i++) {
-		cout << dist[i] << endl;
-	}
-	return 0;
 }
