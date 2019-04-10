@@ -31,10 +31,6 @@ using namespace std;
 
 int solution(int N) {
 	// write your code in C++14 (g++ 6.2.0)
-	ios_base::sync_with_stdio(false);
-	cin.tie(0);
-
-
 	stack<int> s;
 
 	while (N > 0) {
@@ -65,5 +61,4 @@ int solution(int N) {
 	}
 
 	return maxGap;
-
 }

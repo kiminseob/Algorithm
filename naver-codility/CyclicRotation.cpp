@@ -46,16 +46,13 @@ In your solution, focus on correctness. The performance of your solution will no
 #include<vector>
 using namespace std;
 
-int main() {
+vector<int> solution(vector<int> &A, int K) {
 	// write your code in C++14 (g++ 6.2.0)
-	vector<int> A = { 1,2,3,4,5,6,7,8,9,10,11 };
 	vector<int> *arr = &A;
-	int K;
-		
-	cin >> K;
+
 	vector<int> cp(arr->size());
 	for (int i = 0; i < arr->size(); i++) {
-		cp.at((i + K)%arr->size()) = arr->at(i);
+		cp.at((i + K) % arr->size()) = arr->at(i);
 	}
-
+	return cp;
 }
